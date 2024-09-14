@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<title>Enquiry Form</title>
+  <div class="form">
+    <h1 style="color:red; width: 100%">ADD QUESTION</h1>
+  <fieldset>
+    <legend><b> Validation Form :</b></legend>
+
+	<style>
+		.form-container {
+			width: 400px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color:none;
+			border: 1px solid;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px:red;
+    }
+		.form-control {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid ;
+			border-radius: 10px;
+			box-sizing: border-box;
+		}
+		
+		.submit-button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		
+		.required {
+			color:red;
+		}
+	</style>
+</head>
+<body>
+<div class="form-container">
+		<form>
+			<label>Name <span class="required">*</span></label>
+	<input type="text" class="form-control" id="name" name="name" required>
+
+			
+
+			<label>Date of Birth <span class="required">*</span></label>
+			<input type="date" class="form-control" id="dob" name="dob" required>
+			
+			<label>Email <span class="required">*</span></label>
+			<input type="email" class="form-control" id="email" name="email" required>
+			
+			<label>Mobile Number <span class="required">*</span></label>
+			<input type="tel" class="form-control" id="mobile" name="mobile" required>
+			
+			<label>City <span class="required">*</span></label>
+			<input type="text" class="form-control" id="city" name="city" required>
+			
+			<input type="checkbox" id="terms" name="terms" required>
+			<label for="terms">I agree to the Terms and Conditions</label>
+			
+			<input type="submit" value="Submit" class="submit-button">
+        </fieldset>
+		</form>
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enquiry Form</title>
+  <div class="form">
+    <h1 style="color:green; width: 100%">EVEN QUESTION</h1>
+    
+  <fieldset>
+    <legend><b> Enquiry Form :</b></legend>
+        <form1>
+<div class="form-container">
+<label>Name <span class="required">*</span></label>
+	<input type="text" class="form-control" id="name" name="name" required>
+
+
+<label>Email <span class="required">*</span></label>
+			<input type="email" class="form-control" id="email" name="email" required>
+
+<label for="course">Course:</label>
+<select id="course" name="course" class="form-control" required>
+<option value="" style="color: #000;">Select Course</option>
+<option value="course1" style="color: #FF0000;">FULL STACK</option>
+<option value="course2" style="color: #00FF00;">FRONTEND</option>
+<option value="course3" style="color: #0000FF;">BACKEND</option>
+<option value="course4" style="color: ORANGE;">JAVA</option>
+<option value="course5" style="color: #FF00FF;">PYTHON</option>
+  <option value="course6" style="color: AQUA;">IOT</option>
+</select>
+
+
+<label for="location">Preferred Location:</label>
+<select id="location" name="location" class="form-control" required>
+<option value="" style="color: #000;">Select Location</option>
+<option value="location1" style="color: #FF0000;">ANNA NAGAR</option>
+<option value="location2" style="color: #00FF00;">OMR</option>
+<option value="location3" style="color: #0000FF;">PADI</option>
+<option value="location4" style="color: #FFFF00;">VELACHERY</option>
+<option value="location5" style="color: #FF00FF;">PORUR</option>
+</select>
+</select>
+
+
+<input type="checkbox" id="newsletter" name="newsletter">
+<label for="newsletter" style="color: #FF0000;">Subscribe to Newsletter</label>
+
+<input type="submit" value="Submit" class="submit-button">
+</fieldset>
+</div>
+</form1>
