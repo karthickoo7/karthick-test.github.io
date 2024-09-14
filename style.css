@@ -1,8 +1,13 @@
-.form input[required]:focus{
+.form1 input[required]:focus{
     border-radius:8px;
     padding:10px;
     color:red;
     background-color: rgb(253, 253, 253);
     transition: all 0.3s ease-in-out;
-    border: 3.5px solid yellow;
+    border: 3.5px solid blue;
 } 
+
+form1  input[type="checkbox"]:checked + label{
+    color:red;
+    font-weight: bolder;
+}

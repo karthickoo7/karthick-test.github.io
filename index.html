@@ -3,8 +3,8 @@
 <head>
     <link rel="stylesheet" href="style.css">
 	<title>Enquiry Form</title>
-  <div class="form">
-    <h1 style="color:red; width: 100%">ADD QUESTION</h1>
+  <div class="form1">
+    <h1 style="color:red; width: 100%">ODD QUESTION</h1>
   <fieldset>
     <legend><b> Validation Form :</b></legend>
 
@@ -63,7 +63,7 @@
 			
 			<input type="checkbox" id="terms" name="terms" required>
 			<label for="terms">I agree to the Terms and Conditions</label>
-			
+		
 			<input type="submit" value="Submit" class="submit-button">
         </fieldset>
 		</form>
@@ -95,7 +95,7 @@
 <option value="" style="color: #000;">Select Course</option>
 <option value="course1" style="color: #FF0000;">FULL STACK</option>
 <option value="course2" style="color: #00FF00;">FRONTEND</option>
-<option value="course3" style="color: #0000FF;">BACKEND</option>
+<option value="course3" style="color: #0d0de1;">BACKEND</option>
 <option value="course4" style="color: ORANGE;">JAVA</option>
 <option value="course5" style="color: #FF00FF;">PYTHON</option>
   <option value="course6" style="color: AQUA;">IOT</option>
@@ -111,11 +111,13 @@
 <option value="location4" style="color: #FFFF00;">VELACHERY</option>
 <option value="location5" style="color: #FF00FF;">PORUR</option>
 </select>
-</select>
 
+<label>Current Location: <span class="required"></span></label>
+			<input type="Current Location" class="form-control" id="Current Location" name= "Current Location" required>
 
-<input type="checkbox" id="newsletter" name="newsletter">
-<label for="newsletter" style="color: #FF0000;">Subscribe to Newsletter</label>
+<input type="checkbox" checked="checked">
+        <label>Subscribe to Newsletter</label>
+
 
 <input type="submit" value="Submit" class="submit-button">
 </fieldset>
